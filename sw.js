@@ -1,35 +1,25 @@
-const CACHE_NAME = 'quiz-pwa-v0.1.7';
-const FILES_TO_CACHE = [
+const CACHE_NAME = 'quiz-pwa-v0.1.75';
+const ASSETS = [
     '/',
-    'index.html',
-    'scripts.js',
-    'manifest.js',
-    'icon-192.png',
-    'icon-512.png'
+    '/index.html',
+    '/manifest.json',
+    '/logo.svg',
+    '/script.js',
+    'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css',
+    'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'
 ];
 
-// Instalação: armazena arquivos em cache
 self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)
-        .then(cache => {
-            console.log('Arquivos armazenados em cache:', FILES_TO_CACHE);
-            return cache.addAll(FILES_TO_CACHE);
-        })
+            .then(cache => cache.addAll(ASSETS))
+            .then(() => self.skipWaiting())
     );
 });
 
-// Busca recursos do cache quando offline
 self.addEventListener('fetch', (event) => {
     event.respondWith(
         caches.match(event.request)
-        .then(response => {
-            if (response) {
-                console.log('Servindo do cache:', event.request.url);
-                return response;
-            }
-            console.log('Buscando da rede:', event.request.url);
-            return fetch(event.request);
-        })
+            .then(response => response || fetch(event.request))
     );
 });

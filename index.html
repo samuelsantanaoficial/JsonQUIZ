@@ -15,26 +15,26 @@
     <link rel="manifest" href="favicon/site.webmanifest" />
 
     <!-- Registro do Service Worker -->
-    <script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-            .then(registration => {
-            console.log('Service Worker registrado com sucesso:', registration);
-            })
-            .catch(error => {
-            console.log('Falha ao registrar o Service Worker:', error);
-            });
-        });
-    }
-    </script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js')
+          .then(registration => {
+              console.log('Service Worker registrado com sucesso:', registration);
+          })
+          .catch(error => {
+              console.log('Falha ao registrar Service Worker:', error);
+          });
+  });
+}
+</script>
 </head>
 <body class="container mt-4">
     <div class="card">
         <div class="card-body">
             <div class="d-flex align-items-center mb-4">
                 <img src="logo.svg" alt="Logo do Quiz" style="height: 40px;" class="me-3">
-                <h1 class="m-0">QUIZ v0.1.7</h1>
+                <h1>QUIZ</h1><p class="m-3">v0.1.75</p>
             </div>
             
             

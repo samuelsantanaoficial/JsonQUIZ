@@ -1,6 +1,7 @@
 {
   "name": "Quiz",
   "short_name": "Quiz",
+  "description": "Um quiz interativo e divertido.",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +16,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
+  "theme_color": "#007bff",
   "background_color": "#ffffff",
   "display": "standalone"
 }
