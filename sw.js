@@ -1,11 +1,11 @@
-const CACHE_NAME = 'quiz-pwa-v0.1.6';
-const ASSETS = [
+const CACHE_NAME = 'quiz-pwa-v0.1.7';
+const FILES_TO_CACHE = [
+    '/',
     'index.html',
-    'manifest.json',
-    'logo.svg',
-    'script.js',
-    'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css',
-    'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'
+    'scripts.js',
+    'manifest.js',
+    'icon-192.png',
+    'icon-512.png'
 ];
 
 // Instalação: armazena arquivos em cache
