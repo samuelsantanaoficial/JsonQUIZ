@@ -1,11 +1,10 @@
-const CACHE_NAME = 'quiz-pwa-v0.1';
+const CACHE_NAME = 'quiz-pwa-v1';
 const ASSETS = [
     '/',
     '/index.html',
+    '/manifest.json',
     '/logo.svg',
-    '/main.js',
-    '/sw.js',
-    '/favicon/site.webmanifest.json',
+    '/script.js',
     'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css',
     'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'
 ];
@@ -14,6 +13,7 @@ self.addEventListener('install', (event) => {
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(cache => cache.addAll(ASSETS))
+            .then(() => self.skipWaiting())
     );
 });
 
