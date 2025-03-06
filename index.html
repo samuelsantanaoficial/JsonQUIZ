@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz PWA</title>
+    <title>Quiz</title>
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Quiz" />
+    <link rel="manifest" href="favicon/site.webmanifest" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="manifest" href="/manifest.json">
 </head>
 <body class="container mt-4">
     <div class="card">
         <div class="card-body">
-            <h1 class="mb-4">Quiz</h1>
+            <div class="d-flex align-items-center mb-4">
+                <img src="logo.svg" alt="Logo do Quiz" style="height: 40px;" class="me-3">
+                <h1 class="m-0">QUIZ</h1>
+            </div>
+            
             
             <!-- Carregar Perguntas -->
             <div id="uploadArea">
@@ -33,111 +42,7 @@
         </div>
     </div>
 
-<script>
-// Dados do jogo
-let questions = [];
-let currentQuestion = 0;
-
-// Carregar perguntas
-document.getElementById('questionsFile').addEventListener('change', function(e) {
-    const file = e.target.files[0];
-    const reader = new FileReader();
-    
-    reader.onload = function(e) {
-        try {
-            questions = JSON.parse(e.target.result);
-            document.getElementById('playButton').disabled = false;
-        } catch (error) {
-            alert('Erro ao carregar arquivo!');
-        }
-    };
-    reader.readAsText(file);
-});
-
-// Iniciar jogo
-function startGame() {
-    currentQuestion = 0;
-    document.getElementById('uploadArea').classList.add('d-none');
-    document.getElementById('gameArea').classList.remove('d-none');
-    showQuestion();
-}
-
-// Mostrar questão
-function showQuestion() {
-    const q = questions[currentQuestion];
-    document.getElementById('question').textContent = q.quiz;
-    document.getElementById('alternatives').innerHTML = 
-        ['a', 'b', 'c', 'd'].map(alt => `
-            <button class="list-group-item list-group-item-action" 
-                onclick="checkAnswer('${alt}')">
-                ${q[alt]}
-            </button>
-        `).join('');
-    
-    // Resetar elementos
-    document.getElementById('feedback').classList.add('d-none');
-    document.getElementById('reference').classList.add('d-none');
-    document.getElementById('nextButton').disabled = true;
-}
-
-// Verificar resposta
-function checkAnswer(selected) {
-    const q = questions[currentQuestion];
-    const correct = q.x;
-    const feedback = document.getElementById('feedback');
-    const reference = document.getElementById('reference');
-    
-    // Destacar respostas
-    document.querySelectorAll('#alternatives button').forEach(btn => {
-        btn.disabled = true;
-        if (btn.textContent === q[correct]) {
-            btn.classList.add('btn-success');
-        } else if (btn.textContent === q[selected]) {
-            btn.classList.add('btn-danger');
-        }
-    });
-
-    // Mostrar feedback
-    feedback.classList.remove('d-none');
-    if (selected === correct) {
-        feedback.classList.remove('alert-danger');
-        feedback.classList.add('alert-success');
-        feedback.textContent = "Resposta Correta! ✅";
-    } else {
-        feedback.classList.remove('alert-success');
-        feedback.classList.add('alert-danger');
-        feedback.textContent = `Resposta Incorreta! A resposta correta é: ${q[correct]}`;
-    }
-
-    // Mostrar referência se existir
-    if (q.ref) {
-        reference.classList.remove('d-none');
-        reference.textContent = `Referência: ${q.ref}`;
-    }
-
-    document.getElementById('nextButton').disabled = false;
-}
-
-// Próxima questão
-function nextQuestion() {
-    currentQuestion++;
-    if (currentQuestion < questions.length) {
-        showQuestion();
-    } else {
-        alert('Fim do quiz!');
-        location.reload();
-    }
-}
-
-// Registrar Service Worker
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-            .then(registration => console.log('Service Worker registrado'))
-            .catch(err => console.log('Falha ao registrar Service Worker:', err));
-    });
-}
-</script>
+<script src="main.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

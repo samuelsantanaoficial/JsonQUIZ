@@ -1,0 +1,56 @@
+[
+    {
+        "quiz": "Qual o nome do primeiro casal criado por Deus?",
+        "a": "João e Maria",
+        "b": "Abrão e Sara",
+        "c": "Adão e Eva",
+        "d": "Moisés e Isabel",
+        "x": "c",
+        "ref": "Gênesis 1-2"
+    },
+    {
+        "quiz": "Quantos discípulos Jesus teve?",
+        "a": "7",
+        "b": "12",
+        "c": "10",
+        "d": "40",
+        "x": "b",
+        "ref": "Mateus 10:1"
+    },
+    {
+        "quiz": "Qual foi o sinal que Deus deu a Noé, como promessa de não mais destruir a terra com água?",
+        "a": "Um arco-íris",
+        "b": "Uma cruz",
+        "c": "Um anel de ouro",
+        "d": "Um castiçal com sete luzes",
+        "x": "b",
+        "ref": "Gênesis 9:11-17"
+    },
+    {
+        "quiz": "Quem foi o primeiro rei de Israel?",
+        "a": "Davi",
+        "b": "Samuel",
+        "c": "Salomão",
+        "d": "Saul",
+        "x": "d",
+        "ref": "1 Samuel 10:1"
+    },
+    {
+        "quiz": "Qual a cidade em que Jesus nasceu?",
+        "a": "Nazaré",
+        "b": "Belém",
+        "c": "Galiléia",
+        "d": "Jerusalém",
+        "x": "b",
+        "ref": "Mateus 2:1; Lucas 2:4"
+    },
+    {
+        "quiz": "Por quanto tempo Moisés e o povo hebreu ficaram no deserto?",
+        "a": "40 dias",
+        "b": "40 anos",
+        "c": "40 semanas",
+        "d": "40 décadas",
+        "x": "b",
+        "ref": "Deuteronômio 29:5."
+    }
+]
