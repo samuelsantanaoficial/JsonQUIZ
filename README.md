@@ -27,6 +27,10 @@
 
 ---
 
+![](demo.gif)
+
+---
+
 ## 🛠️ Criando seu Arquivo de Perguntas
 Use a estrutura JSON abaixo (exemplo completo na pasta `/examples`):
 
