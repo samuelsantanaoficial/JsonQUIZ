@@ -1,10 +1,9 @@
-const CACHE_NAME = 'quiz-pwa-v0.1.3';
+const CACHE_NAME = 'quiz-pwa-v0.1.4';
 const ASSETS = [
-    '/',
-    '/index.html',
-    '/manifest.json',
-    '/logo.svg',
-    '/script.js',
+    'index.html',
+    'manifest.json',
+    'logo.svg',
+    'script.js',
     'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css',
     'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js'
 ];
