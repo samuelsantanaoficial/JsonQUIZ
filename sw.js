@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quiz-pwa-v0.1.4';
+const CACHE_NAME = 'quiz-pwa-v0.1.5';
 const ASSETS = [
     'index.html',
     'manifest.json',
