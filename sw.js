@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quiz-pwa-v0.1.75';
+const CACHE_NAME = 'quiz-pwa-v0.1.8';
 const ASSETS = [
     '/',
     '/index.html',

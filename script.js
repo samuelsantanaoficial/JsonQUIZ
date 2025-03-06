@@ -70,6 +70,8 @@ function checkAnswer(selected) {
     const correct = q.x;
     const feedback = document.getElementById('feedback');
     const reference = document.getElementById('reference');
+    const audioAcerto = document.getElementById('audioAcerto');
+    const audioErro = document.getElementById('audioErro');
     
     // Destacar respostas
     document.querySelectorAll('#alternatives button').forEach(btn => {
@@ -87,10 +89,12 @@ function checkAnswer(selected) {
         feedback.classList.remove('alert-danger');
         feedback.classList.add('alert-success');
         feedback.textContent = "Resposta Correta! ✅";
+        audioAcerto.play(); // Toca som de acerto
     } else {
         feedback.classList.remove('alert-success');
         feedback.classList.add('alert-danger');
-        feedback.textContent = `Resposta Incorreta! A resposta correta é: ${q[correct]}`;
+        feedback.textContent = `Resposta Incorreta! ❌ A resposta correta é: ${q[correct]}`;
+        audioErro.play(); // Toca som de erro
     }
 
     // Mostrar referência se existir
