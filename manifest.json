@@ -1,6 +1,6 @@
 {
-    "name": "Quiz",
-    "short_name": "Quiz",
+    "name": "jsonQuiz",
+    "short_name": "jzonQuiz",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",

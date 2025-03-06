@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quiz-pwa-v0.1.8';
+const CACHE_NAME = 'jsonquiz-0.1.9';
 const ASSETS = [
     '/',
     '/index.html',

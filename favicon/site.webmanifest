@@ -1,6 +1,6 @@
 {
-  "name": "Quiz",
-  "short_name": "Quiz",
+  "name": "jsonQuiz",
+  "short_name": "jsonQuiz",
   "description": "Um quiz interativo e divertido.",
   "icons": [
     {
