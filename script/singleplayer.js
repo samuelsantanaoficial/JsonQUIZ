@@ -130,11 +130,18 @@ function checkAnswer(selected) {
         audioError.play();
     }
 
-    const ref = question.ref || question.referencia;
-    if (ref) {
+    const refText = question.ref;
+    const refLink = question.link;
+
+    if (refText || refLink) {
         const refDiv = document.getElementById('reference');
-        refDiv.textContent = `📚 ${ref}`;
         refDiv.classList.remove('d-none');
+
+        let html = "📚 ";
+        if (refText) html += refText;
+        if (refLink) html += ` — <a href="${refLink}" target="_blank" rel="noopener noreferrer">${refLink}</a>`;
+
+        refDiv.innerHTML = html;
     }
 
     document.getElementById('nextButton').disabled = false;
