@@ -239,7 +239,7 @@ class MultiplayerQuiz {
         // Ensure this is the timer display for the multiplayer section
         // The HTML already has an ID 'timerDisplay' within multiGame, so we just need to target that one.
         if (!timerElement) {
-             // Fallback, though it should exist based on index.html
+            // Fallback, though it should exist based on index.html
             timerElement = document.createElement('div');
             timerElement.id = 'multiTimerDisplay';
             document.getElementById('multiGame').prepend(timerElement); // Adjust where it's inserted if needed
@@ -248,57 +248,78 @@ class MultiplayerQuiz {
     }
 
     selectAnswer(selectedOption) {
-    if (!this.gameActive) return;
+        if (!this.gameActive) return;
 
-    clearInterval(this.timer);
-    const question = this.multiQuestions[this.currentQuestionIndex];
-    const correct = question.x;
-    const correctText = question[correct];
-    const buttons = document.querySelectorAll('#multiAlternatives button');
-    const audioSuccess = document.getElementById('audioSuccess');
-    const audioError = document.getElementById('audioError');
-    const isCorrect = selectedOption === correct;
+        clearInterval(this.timer);
+        const question = this.multiQuestions[this.currentQuestionIndex];
+        const correct = question.x;
+        const correctText = question[correct];
+        const buttons = document.querySelectorAll('#multiAlternatives button');
+        const audioSuccess = document.getElementById('audioSuccess');
+        const audioError = document.getElementById('audioError');
+        const isCorrect = selectedOption === correct;
 
-    buttons.forEach(button => {
-        button.disabled = true;
-        if (button.textContent === correctText) {
-            button.classList.add('btn-success');
-        } else if (selectedOption && button.textContent === question[selectedOption]) {
-            button.classList.add('btn-danger');
+        buttons.forEach(button => {
+            button.disabled = true;
+            if (button.textContent === correctText) {
+                button.classList.add('btn-success');
+            } else if (selectedOption && button.textContent === question[selectedOption]) {
+                button.classList.add('btn-danger');
+            }
+        });
+
+        this.skippedQuestions.add(this.currentQuestionIndex);
+
+        if (isCorrect) {
+            this.players[this.currentPlayerIndex].score++;
+            audioSuccess.play();
+        } else {
+            audioError.play();
         }
-    });
 
-    this.skippedQuestions.add(this.currentQuestionIndex);
+        // Remover feedback anterior
+        const oldFeedback = document.querySelector('#multiGame .quiz-feedback');
+        if (oldFeedback) oldFeedback.remove();
 
-    if (isCorrect) {
-        this.players[this.currentPlayerIndex].score++;
-        audioSuccess.play();
-    } else {
-        audioError.play();
+        if (isCorrect) {
+            this.players[this.currentPlayerIndex].score++;
+            audioSuccess.play();
+        } else {
+            audioError.play();
+        }
+
+        // Criar feedback
+        const feedbackDiv = document.createElement('div');
+        feedbackDiv.className = isCorrect ? 'quiz-feedback alert alert-success mt-3' : 'quiz-feedback alert alert-danger mt-3';
+
+        if (isCorrect) {
+            feedbackDiv.textContent = '✅ Resposta correta!';
+        } else {
+            feedbackDiv.textContent = `❌ Resposta incorreta. A correta era: "${correctText}".`;
+        }
+
+
+        const refText = question.ref;
+        const refLink = question.link;
+
+        if (refText || refLink) {
+            const refDiv = document.createElement('div');
+            refDiv.className = 'alert alert-secondary mt-2';
+
+            let html = "📚 ";
+            if (refText) html += refText;
+            if (refLink) html += ` — <a href="${refLink}" target="_blank" rel="noopener noreferrer">${refLink}</a>`;
+
+            refDiv.innerHTML = html;
+            feedbackDiv.appendChild(refDiv);
+        }
+
+
+        document.getElementById('multiGame').appendChild(feedbackDiv);
+
+        // Avança turno após pequeno atraso
+        setTimeout(() => this.nextTurn(), 5000);
     }
-
-    // Remover feedback anterior
-    const oldFeedback = document.querySelector('#multiGame .quiz-feedback');
-    if (oldFeedback) oldFeedback.remove();
-
-    // Criar feedback
-    const feedbackDiv = document.createElement('div');
-    feedbackDiv.className = 'quiz-feedback alert alert-info mt-3';
-    feedbackDiv.textContent = `✅ Resposta correta: "${correctText}"`;
-
-    const ref = question.ref || question.referencia;
-    if (ref) {
-        const refDiv = document.createElement('div');
-        refDiv.className = 'alert alert-secondary mt-2';
-        refDiv.textContent = `📚 ${ref}`;
-        feedbackDiv.appendChild(refDiv);
-    }
-
-    document.getElementById('multiGame').appendChild(feedbackDiv);
-
-    // Avança turno após pequeno atraso
-    setTimeout(() => this.nextTurn(), 1000);
-}
 
     nextTurn() {
         this.currentPlayerIndex = (this.currentPlayerIndex + 1) % this.players.length;
@@ -312,13 +333,13 @@ class MultiplayerQuiz {
         // The current implementation of `nextTurn` will move to the next player.
         // The `displayQuestion` method itself will check `this.currentQuestionIndex` and `this.skippedQuestions`
         // to find the next valid question or end the game.
-        
+
         // If it's the first player's turn again, we advance the question index.
         // This is a common way to cycle through questions in turn-based multiplayer.
         if (this.currentPlayerIndex === 0) {
             this.currentQuestionIndex++;
         }
-        
+
         // Check if there are any remaining unanswered questions
         let allQuestionsAnswered = true;
         for (let i = 0; i < this.multiQuestions.length; i++) {
@@ -362,7 +383,7 @@ class MultiplayerQuiz {
     updateProgress() {
         const totalQuestions = this.multiQuestions.length;
         // The progress should reflect the number of *unique* questions that have been answered
-        const questionsAnsweredCount = this.skippedQuestions.size; 
+        const questionsAnsweredCount = this.skippedQuestions.size;
         const progress = totalQuestions > 0 ? (questionsAnsweredCount / totalQuestions) * 100 : 0;
 
         document.getElementById('progressFill').style.width = `${Math.min(progress, 100)}%`;
