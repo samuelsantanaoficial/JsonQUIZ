@@ -1,5 +1,5 @@
-# 🎮 Quiz
-**Crie e compartilhe quizzes com amigos de forma divertida!**
+# jsonQUIZ
+**Crie e jogue quizzes com amigos de forma divertida!**
 
 [![PWA](https://img.shields.io/badge/Progressive_Web_App-4188D3?style=flat-square)](https://web.dev/what-are-pwas/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
@@ -15,6 +15,10 @@
 ---
 
 ## 🚀 Como Usar
+1. **Escolha o modo de jogo:**
+    - Individual
+    - Multiplayer local
+
 1. **Carregue suas perguntas**:
    - Clique no botão "Importar JSON"
    - Selecione seu arquivo de perguntas formatado
@@ -27,12 +31,12 @@
 
 ---
 
-![](demo.gif)
+![Demontração](demo.gif)
 
 ---
 
 ## 🛠️ Criando seu Arquivo de Perguntas
-Use a estrutura JSON abaixo (exemplo completo na pasta `/examples`):
+Use a estrutura JSON abaixo (*exemplo completo na pasta* `/dist/`):
 
 ```json
 [
