@@ -1,27 +1,45 @@
-# jsonQUIZ
-**Crie e jogue quizzes com amigos de forma divertida!**
+# jsonQUIZ - Crie e Jogue Quizzes Interativos 🎯  
 
-[![PWA](https://img.shields.io/badge/Progressive_Web_App-4188D3?style=flat-square)](https://web.dev/what-are-pwas/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
+[![PWA](https://img.shields.io/badge/PWA-Optimized-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://web.dev/what-are-pwas/)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge)](LICENSE)
 
----
-
-## 🌟 Funcionalidades
-- 📁 Importe perguntas personalizadas via arquivos JSON
-- 📱 Interface responsiva para mobile e desktop
-- 🎨 Design moderno com animações suaves
-- 📥 Funciona offline (PWA)
+**Transforme qualquer conteúdo em um quiz divertido e compartilhável!** 
 
 ---
 
-## 🚀 Como Usar
+## Funcionalidades
+
+**Quiz Personalizado**  
+- Importe perguntas via JSON (totalmente customizável)  
+- Suporte a imagens, referências e feedback detalhado 
+
+**Multiplos Modos de Jogo**
+- Individual (treine sozinho)  
+- Multiplayer local (desafie amigos)
+
+**Experiência Premium**  
+- PWA (instalável e funciona offline)  
+- Animações fluidas e design intuitivo  
+- 100% responsivo (mobile, tablet, desktop) 
+
+# [Downloads](https://github.com/samuelsantanaoficial/jsonquiz/releases/latest)
+
+---
+
+## Demonstração  
+
+![Demontração](demo.gif)
+
+---
+
+## Como Usar
 1. **Escolha o modo de jogo:**
     - Individual
     - Multiplayer local
 
 1. **Carregue suas perguntas**:
    - Clique no botão "Importar JSON"
-   - Selecione seu arquivo de perguntas formatado
+   - Você pode **baixar perguntas prontas [aqui](https://github.com/samuelsantanaoficial/jsonquiz/releases/latest)**
 
 2. **Jogue com amigos**:
    - Aproveita o aplicativo com seus amigos.
@@ -31,42 +49,45 @@
 
 ---
 
-![Demontração](demo.gif)
-
----
-
-## 🛠️ Criando seu Arquivo de Perguntas
-Use a estrutura JSON abaixo (*exemplo completo na pasta* `/dist/`):
+## Criando Seu Próprio Quiz  
+Use a estrutura JSON abaixo (*arquivo completo na pasta* `/dist/`):
 
 ```json
 [
     {
-        "quiz": "Quem construiu a arca?",
-        "a": "Noé",
-        "b": "Moisés",
-        "c": "Abraão",
-        "d": "Davi",
-        "x": "a",
-        "ref": "Gênesis 6:14"
+        "quiz": "Quem escreveu o livro de Atos dos Apóstolos?",
+        "a": "João",
+        "b": "Lucas",
+        "c": "Paulo",
+        "d": "Pedro",
+        "x": "b",
+        "ref": "Atos 1:1"
     },
     {
-        "quiz": "Quem venceu Golias?",
-        "a": "Sansão",
-        "b": "Davi",
-        "c": "Josué",
-        "d": "Salomão",
-        "x": "b",
-        "ref": "1 Samuel 17:49-50"
+        "quiz": "Quantos dias Jesus permaneceu na terra após sua ressurreição antes de subir ao céu?",
+        "a": "7 dias",
+        "b": "12 dias",
+        "c": "40 dias",
+        "d": "50 dias",
+        "x": "c",
+        "ref": "Atos 1:3"
     }
 ]
 ```
 
-### 🔍 Regras de Formatação:
-1. Use **letras minúsculas** em `x` (`a`, `b`, `c` e `d`)
-2. Sempre coloque vírgula entre perguntas
-3. Não use espaços após as vírgulas
+> **Regras de Formatação:**
+> 1. Use letras minúsculas em `x` (`a`, `b`, `c`, `d`)
+> 2. Sempre coloque vírgula entre perguntas
+> 3. Não use espaços após as vírgulas
 
 ---
 
-## 📜 Licença
+## Licença
 Este projeto está sob licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+---
+
+## Contribua
+Você pode contribuir com perguntas
+
+---
