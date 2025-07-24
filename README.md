@@ -5,6 +5,8 @@
 
 **Transforme qualquer conteúdo em um quiz divertido e compartilhável!** 
 
+# [INSTALAÇÃO](https://jsonquiz.netlify.app/)
+
 ---
 
 ## Funcionalidades
