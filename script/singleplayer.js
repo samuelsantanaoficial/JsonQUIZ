@@ -44,6 +44,8 @@ function startSingleGame() {
     document.getElementById('uploadArea').classList.add('d-none');
     document.getElementById('gameArea').classList.remove('d-none');
 
+    questions = shuffleArray(questions);
+
     renderQuestion();
 }
 
@@ -178,4 +180,13 @@ function createOrGetTimerDisplay() {
         document.getElementById('gameArea').insertBefore(timer, document.getElementById('question'));
     }
     return timer;
+}
+
+function shuffleArray(array) {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
 }
