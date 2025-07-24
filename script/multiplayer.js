@@ -208,18 +208,18 @@ class MultiplayerQuiz {
         clearInterval(this.timer); // Use this.timer
         this.timeLeft = 15; // Use this.timeLeft
 
-        const timerDisplay = this.createOrGetTimerDisplay(); // Call local helper method
-        timerDisplay.textContent = this.timeLeft;
-        timerDisplay.classList.remove('text-danger');
-        timerDisplay.classList.add('text-primary');
+        const multiTimerDisplay = this.createOrGetTimerDisplay(); // Call local helper method
+        multiTimerDisplay.textContent = this.timeLeft;
+        multiTimerDisplay.classList.remove('text-danger');
+        multiTimerDisplay.classList.add('text-primary');
 
         this.timer = setInterval(() => { // Use this.timer
             this.timeLeft--; // Use this.timeLeft
-            timerDisplay.textContent = this.timeLeft;
+            multiTimerDisplay.textContent = this.timeLeft;
 
             if (this.timeLeft <= 5) {
-                timerDisplay.classList.add('text-danger');
-                timerDisplay.classList.remove('text-primary');
+                multiTimerDisplay.classList.add('text-danger');
+                multiTimerDisplay.classList.remove('text-primary');
             }
 
             if (this.timeLeft <= 0) {
@@ -231,13 +231,13 @@ class MultiplayerQuiz {
 
     // Helper method for multiplayer timer display
     createOrGetTimerDisplay() {
-        let timerElement = document.getElementById('timerDisplay');
+        let timerElement = document.getElementById('multiTimerDisplay');
         // Ensure this is the timer display for the multiplayer section
         // The HTML already has an ID 'timerDisplay' within multiGame, so we just need to target that one.
         if (!timerElement) {
              // Fallback, though it should exist based on index.html
             timerElement = document.createElement('div');
-            timerElement.id = 'timerDisplay';
+            timerElement.id = 'multiTimerDisplay';
             document.getElementById('multiGame').prepend(timerElement); // Adjust where it's inserted if needed
         }
         return timerElement;
