@@ -23,6 +23,7 @@ class MultiplayerQuiz {
         document.getElementById('startMultiBtn').addEventListener('click', () => this.startGame());
         document.getElementById('playAgainBtn').addEventListener('click', () => this.restartGame());
         document.getElementById('newMultiGameBtn').addEventListener('click', () => this.newGame());
+        document.getElementById('nextMultiButton').addEventListener('click', () => this.nextTurn());
 
         document.addEventListener('click', (e) => {
             if (e.target.classList.contains('color-option')) {
@@ -171,6 +172,9 @@ class MultiplayerQuiz {
     }
 
     displayQuestion() {
+        // Oculta o botão "Próxima"
+        document.getElementById('nextMultiButton').classList.add('d-none');
+
         // Remover feedback anterior
         const oldFeedback = document.querySelector('#multiGame .quiz-feedback');
         if (oldFeedback) oldFeedback.remove();
@@ -318,7 +322,12 @@ class MultiplayerQuiz {
         document.getElementById('multiGame').appendChild(feedbackDiv);
 
         // Avança turno após pequeno atraso
-        setTimeout(() => this.nextTurn(), 5000);
+        // setTimeout(() => this.nextTurn(), 5000);
+
+        const nextBtn = document.getElementById('nextMultiButton');
+        nextBtn.classList.remove('d-none');
+        nextBtn.disabled = false;
+
     }
 
     nextTurn() {
