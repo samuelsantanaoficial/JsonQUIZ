@@ -1,0 +1,272 @@
+[
+    {
+        "quiz": "Qual é o menor versículo da Bíblia?",
+        "a": "Deus é amor",
+        "b": "Jesus chorou",
+        "c": "Vinde a mim",
+        "d": "Não matarás",
+        "x": "b",
+        "ref": "João 11:35"
+    },
+    {
+        "quiz": "Qual é o último livro da Bíblia?",
+        "a": "Evangelho de João",
+        "b": "Apocalipse",
+        "c": "Atos dos Apóstolos",
+        "d": "Romanos",
+        "x": "b",
+        "ref": "Apocalipse 1:1"
+    },
+    {
+        "quiz": "Quem viveu 969 anos, o mais longevo da Bíblia?",
+        "a": "Adão",
+        "b": "Noé",
+        "c": "Matusalém",
+        "d": "Sete",
+        "x": "c",
+        "ref": "Gênesis 5:27"
+    },
+    {
+        "quiz": "Qual rei escreveu muitos Salmos?",
+        "a": "Salomão",
+        "b": "Saul",
+        "c": "Davi",
+        "d": "Ezequias",
+        "x": "c",
+        "ref": "Salmos (diversos)"
+    },
+    {
+        "quiz": "Quem subiu ao céu em um redemoinho, sem morrer?",
+        "a": "Elias",
+        "b": "Enoque",
+        "c": "Moisés",
+        "d": "Abraão",
+        "x": "a",
+        "ref": "2 Reis 2:11"
+    },
+    {
+        "quiz": "Quantos salmos existem na Bíblia?",
+        "a": "100",
+        "b": "120",
+        "c": "150",
+        "d": "200",
+        "x": "c",
+        "ref": "Salmos 1–150"
+    },
+    {
+        "quiz": "Qual livro vem logo após Provérbios?",
+        "a": "Salmos",
+        "b": "Eclesiastes",
+        "c": "Isaías",
+        "d": "Cantares",
+        "x": "b",
+        "ref": "Ordem bíblica"
+    },
+    {
+        "quiz": "Qual animal falou com um homem na Bíblia?",
+        "a": "Cão",
+        "b": "Cobra",
+        "c": "Leão",
+        "d": "Jumenta",
+        "x": "d",
+        "ref": "Números 22:28"
+    },
+    {
+        "quiz": "Qual o nome da mulher que virou estátua de sal?",
+        "a": "Sara",
+        "b": "Mical",
+        "c": "Mulher de Ló",
+        "d": "Raquel",
+        "x": "c",
+        "ref": "Gênesis 19:26"
+    },
+    {
+        "quiz": "Quem batizou Jesus?",
+        "a": "Pedro",
+        "b": "João Batista",
+        "c": "André",
+        "d": "Tiago",
+        "x": "b",
+        "ref": "Mateus 3:13-17"
+    },
+    {
+        "quiz": "Quantas pessoas foram salvas na arca de Noé?",
+        "a": "2",
+        "b": "4",
+        "c": "6",
+        "d": "8",
+        "x": "d",
+        "ref": "Gênesis 7:13"
+    },
+    {
+        "quiz": "Qual imperador romano governava quando Jesus nasceu?",
+        "a": "Herodes",
+        "b": "Nero",
+        "c": "César Augusto",
+        "d": "Tibério",
+        "x": "c",
+        "ref": "Lucas 2:1"
+    },
+    {
+        "quiz": "Qual discípulo era cobrador de impostos?",
+        "a": "Tiago",
+        "b": "João",
+        "c": "Mateus",
+        "d": "Filipe",
+        "x": "c",
+        "ref": "Mateus 9:9"
+    },
+    {
+        "quiz": "Quem escreveu o Apocalipse?",
+        "a": "Paulo",
+        "b": "Pedro",
+        "c": "João",
+        "d": "Lucas",
+        "x": "c",
+        "ref": "Apocalipse 1:1"
+    },
+    {
+        "quiz": "Quem interpretou o sonho do faraó no Egito?",
+        "a": "José",
+        "b": "Daniel",
+        "c": "Moisés",
+        "d": "Elias",
+        "x": "a",
+        "ref": "Gênesis 41:15-16"
+    },
+    {
+        "quiz": "Qual era o nome do jardineiro acusado por Acabe de negar uma vinha?",
+        "a": "Boaz",
+        "b": "Nabote",
+        "c": "Abias",
+        "d": "Geazi",
+        "x": "b",
+        "ref": "1 Reis 21:1-3"
+    },
+    {
+        "quiz": "Quem era conhecido como 'amigo de Deus'?",
+        "a": "Moisés",
+        "b": "Abraão",
+        "c": "Davi",
+        "d": "Paulo",
+        "x": "b",
+        "ref": "Tiago 2:23"
+    },
+    {
+        "quiz": "Quem foi jogado numa fornalha ardente?",
+        "a": "Daniel",
+        "b": "Elias",
+        "c": "Sadraque, Mesaque e Abede-Nego",
+        "d": "Jonas",
+        "x": "c",
+        "ref": "Daniel 3:23"
+    },
+    {
+        "quiz": "Qual foi a primeira mulher juíza de Israel?",
+        "a": "Rute",
+        "b": "Ester",
+        "c": "Débora",
+        "d": "Ana",
+        "x": "c",
+        "ref": "Juízes 4:4"
+    },
+    {
+        "quiz": "Qual o nome da mãe de João Batista?",
+        "a": "Ana",
+        "b": "Isabel",
+        "c": "Raquel",
+        "d": "Salomé",
+        "x": "b",
+        "ref": "Lucas 1:13"
+    },
+    {
+        "quiz": "Quem teve um sonho com uma escada que alcançava o céu?",
+        "a": "Jacó",
+        "b": "José",
+        "c": "Elias",
+        "d": "Salomão",
+        "x": "a",
+        "ref": "Gênesis 28:12"
+    },
+    {
+        "quiz": "Qual rei pediu sabedoria a Deus em sonho?",
+        "a": "Saul",
+        "b": "Salomão",
+        "c": "Davi",
+        "d": "Ezequias",
+        "x": "b",
+        "ref": "1 Reis 3:5-12"
+    },
+    {
+        "quiz": "Qual o nome do discípulo que substituiu Judas Iscariotes?",
+        "a": "Barnabé",
+        "b": "Paulo",
+        "c": "Matias",
+        "d": "Timóteo",
+        "x": "c",
+        "ref": "Atos 1:26"
+    },
+    {
+        "quiz": "Qual foi o castigo de Caim após matar Abel?",
+        "a": "Ficou cego",
+        "b": "Vagaria errante",
+        "c": "Foi preso",
+        "d": "Perdeu a voz",
+        "x": "b",
+        "ref": "Gênesis 4:12"
+    },
+    {
+        "quiz": "Quem ajudou Jesus a carregar a cruz?",
+        "a": "Pedro",
+        "b": "João",
+        "c": "Simão Cireneu",
+        "d": "Bartolomeu",
+        "x": "c",
+        "ref": "Lucas 23:26"
+    },
+    {
+        "quiz": "Qual era o ofício de Paulo?",
+        "a": "Pescador",
+        "b": "Pastor",
+        "c": "Médico",
+        "d": "Fazedor de tendas",
+        "x": "d",
+        "ref": "Atos 18:3"
+    },
+    {
+        "quiz": "Quem foi o primeiro mártir cristão?",
+        "a": "Tiago",
+        "b": "Estevão",
+        "c": "Pedro",
+        "d": "João",
+        "x": "b",
+        "ref": "Atos 7:59-60"
+    },
+    {
+        "quiz": "Quem viu uma sarça ardente que não se consumia?",
+        "a": "Josué",
+        "b": "Moisés",
+        "c": "Abraão",
+        "d": "Elias",
+        "x": "b",
+        "ref": "Êxodo 3:2"
+    },
+    {
+        "quiz": "Quem foi a mulher estrangeira que se tornou ancestral de Davi?",
+        "a": "Ester",
+        "b": "Débora",
+        "c": "Rute",
+        "d": "Raabe",
+        "x": "c",
+        "ref": "Rute 4:17"
+    },
+    {
+        "quiz": "Qual livro da Bíblia não menciona o nome de Deus?",
+        "a": "Ester",
+        "b": "Neemias",
+        "c": "Cantares",
+        "d": "Jó",
+        "x": "a",
+        "ref": "Livro de Ester"
+    }
+]
