@@ -99,13 +99,14 @@ function checkAnswer(selected) {
 
     const question = questions[currentQuestionIndex];
     const correct = question.x;
+    const correctText = question[correct];
     const buttons = document.querySelectorAll('#alternatives button');
     const audioSuccess = document.getElementById('audioSuccess');
     const audioError = document.getElementById('audioError');
 
     buttons.forEach((btn) => {
         btn.disabled = true;
-        if (btn.textContent === question[correct]) {
+        if (btn.textContent === correctText) {
             btn.classList.add('btn-success');
         } else if (btn.textContent === question[selected]) {
             btn.classList.add('btn-danger');
@@ -123,11 +124,11 @@ function checkAnswer(selected) {
         audioSuccess.play();
     } else {
         feedback.className = 'alert alert-danger mb-3';
-        feedback.textContent = '❌ Resposta incorreta ou tempo esgotado.';
+        feedback.textContent = `❌ Resposta incorreta. A correta era: "${correctText}".`;
         audioError.play();
     }
 
-    const ref = question.referencia || question.ref;
+    const ref = question.ref || question.referencia;
     if (ref) {
         const refDiv = document.getElementById('reference');
         refDiv.textContent = `📚 ${ref}`;
@@ -136,6 +137,7 @@ function checkAnswer(selected) {
 
     document.getElementById('nextButton').disabled = false;
 }
+
 
 function nextQuestion() {
     currentQuestionIndex++;
@@ -156,7 +158,6 @@ function endGame() {
 }
 
 // ====== Auxiliares ======
-
 function updateScoreDisplay() {
     let scoreDiv = document.getElementById('scoreDisplay');
     if (!scoreDiv) {

@@ -244,39 +244,57 @@ class MultiplayerQuiz {
     }
 
     selectAnswer(selectedOption) {
-        if (!this.gameActive) return;
+    if (!this.gameActive) return;
 
-        clearInterval(this.timer);
-        const question = this.multiQuestions[this.currentQuestionIndex];
-        const buttons = document.querySelectorAll('#multiAlternatives button');
-        const audioSuccess = document.getElementById('audioSuccess');
-        const audioError = document.getElementById('audioError');
-        let isCorrect = selectedOption === question.x;
+    clearInterval(this.timer);
+    const question = this.multiQuestions[this.currentQuestionIndex];
+    const correct = question.x;
+    const correctText = question[correct];
+    const buttons = document.querySelectorAll('#multiAlternatives button');
+    const audioSuccess = document.getElementById('audioSuccess');
+    const audioError = document.getElementById('audioError');
+    const isCorrect = selectedOption === correct;
 
-        buttons.forEach(button => {
-            button.disabled = true;
-            if (button.textContent === question[question.x]) {
-                button.classList.add('btn-success');
-            } else if (selectedOption && button.textContent === question[selectedOption]) {
-                button.classList.add('btn-danger');
-            }
-        });
-
-        // MARCA A PERGUNTA COMO RESPONDIDA (independente de success ou error)
-        this.skippedQuestions.add(this.currentQuestionIndex);
-
-        if (isCorrect) {
-            this.players[this.currentPlayerIndex].score += 1;
-            audioSuccess.play();
-        } else {
-            audioError.play();
+    buttons.forEach(button => {
+        button.disabled = true;
+        if (button.textContent === correctText) {
+            button.classList.add('btn-success');
+        } else if (selectedOption && button.textContent === question[selectedOption]) {
+            button.classList.add('btn-danger');
         }
+    });
 
-        // Add a small delay to show the correct/incorrect answer before moving to the next turn
-        setTimeout(() => {
-            this.nextTurn();
-        }, 500);
+    this.skippedQuestions.add(this.currentQuestionIndex);
+
+    if (isCorrect) {
+        this.players[this.currentPlayerIndex].score++;
+        audioSuccess.play();
+    } else {
+        audioError.play();
     }
+
+    // Remover feedback anterior
+    const oldFeedback = document.querySelector('#multiGame .quiz-feedback');
+    if (oldFeedback) oldFeedback.remove();
+
+    // Criar feedback
+    const feedbackDiv = document.createElement('div');
+    feedbackDiv.className = 'quiz-feedback alert alert-info mt-3';
+    feedbackDiv.textContent = `✅ Resposta correta: "${correctText}"`;
+
+    const ref = question.ref || question.referencia;
+    if (ref) {
+        const refDiv = document.createElement('div');
+        refDiv.className = 'alert alert-secondary mt-2';
+        refDiv.textContent = `📚 ${ref}`;
+        feedbackDiv.appendChild(refDiv);
+    }
+
+    document.getElementById('multiGame').appendChild(feedbackDiv);
+
+    // Avança turno após pequeno atraso
+    setTimeout(() => this.nextTurn(), 1000);
+}
 
     nextTurn() {
         this.currentPlayerIndex = (this.currentPlayerIndex + 1) % this.players.length;
