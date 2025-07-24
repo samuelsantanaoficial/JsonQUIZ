@@ -216,6 +216,7 @@ class MultiplayerQuiz {
         clearInterval(this.timer); // Use this.timer
 
         const audioTimer = document.getElementById('audioTimer');
+        audioTimer.volume = 0.5;
         audioTimer.currentTime = 0;
         audioTimer.play();
 

@@ -32,6 +32,11 @@ function backToModeSelector() {
     questions = [];
     currentQuestionIndex = 0;
     usedQuestions = [];
+
+    const audioTimer = document.getElementById('audioTimer');
+    audioTimer.pause();
+    audioTimer.currentTime = 0;
+
 }
 
 // Função para voltar às configurações do multiplayer
@@ -44,4 +49,9 @@ function backToMultiSetup() {
         clearInterval(multiplayerQuiz.timer);
         multiplayerQuiz.gameActive = false;
     }
+
+    const audioTimer = document.getElementById('audioTimer');
+    audioTimer.pause();
+    audioTimer.currentTime = 0;
+
 }
