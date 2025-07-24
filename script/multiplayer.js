@@ -214,6 +214,11 @@ class MultiplayerQuiz {
 
     startTimer() {
         clearInterval(this.timer); // Use this.timer
+
+        const audioTimer = document.getElementById('audioTimer');
+        audioTimer.currentTime = 0;
+        audioTimer.play();
+
         this.timeLeft = 15; // Use this.timeLeft
 
         const multiTimerDisplay = this.createOrGetTimerDisplay(); // Call local helper method
@@ -255,6 +260,9 @@ class MultiplayerQuiz {
         if (!this.gameActive) return;
 
         clearInterval(this.timer);
+
+        document.getElementById('audioTimer').pause();
+
         const question = this.multiQuestions[this.currentQuestionIndex];
         const correct = question.x;
         const correctText = question[correct];

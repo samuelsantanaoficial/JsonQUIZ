@@ -73,6 +73,11 @@ function renderQuestion() {
 
 function startTimer() {
     clearInterval(timer);
+
+    const audioTimer = document.getElementById('audioTimer');
+    audioTimer.currentTime = 0;
+    audioTimer.play();
+
     timeLeft = 15;
 
     const timerDisplay = createOrGetTimerDisplay();
@@ -98,6 +103,8 @@ function startTimer() {
 
 function checkAnswer(selected) {
     clearInterval(timer);
+
+    document.getElementById('audioTimer').pause();
 
     const question = questions[currentQuestionIndex];
     const correct = question.x;
