@@ -72,7 +72,8 @@ Use a estrutura JSON abaixo (*arquivo completo na pasta* `/dist/`):
         "c": "40 dias",
         "d": "50 dias",
         "x": "c",
-        "ref": "Atos 1:3"
+        "ref": "Atos 1:3",
+        "link": "https://www.bible.com/pt/bible/211/ACT.1.3"
     }
 ]
 ```
