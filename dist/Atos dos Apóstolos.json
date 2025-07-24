@@ -1,0 +1,272 @@
+[
+    {
+        "quiz": "Quem escreveu o livro de Atos dos Apóstolos?",
+        "a": "João",
+        "b": "Lucas",
+        "c": "Paulo",
+        "d": "Pedro",
+        "x": "b",
+        "ref": "Atos 1:1"
+    },
+    {
+        "quiz": "Quantos dias Jesus permaneceu na terra após sua ressurreição antes de subir ao céu?",
+        "a": "7 dias",
+        "b": "12 dias",
+        "c": "40 dias",
+        "d": "50 dias",
+        "x": "c",
+        "ref": "Atos 1:3"
+    },
+    {
+        "quiz": "Qual foi o apóstolo escolhido para substituir Judas Iscariotes?",
+        "a": "Barnabé",
+        "b": "Matias",
+        "c": "Paulo",
+        "d": "Timóteo",
+        "x": "b",
+        "ref": "Atos 1:26"
+    },
+    {
+        "quiz": "Em que evento os discípulos foram cheios do Espírito Santo?",
+        "a": "Ascensão",
+        "b": "Transfiguração",
+        "c": "Pentecostes",
+        "d": "Batismo de Jesus",
+        "x": "c",
+        "ref": "Atos 2:1-4"
+    },
+    {
+        "quiz": "Qual apóstolo pregou no dia de Pentecostes?",
+        "a": "Tiago",
+        "b": "João",
+        "c": "Pedro",
+        "d": "Paulo",
+        "x": "c",
+        "ref": "Atos 2:14"
+    },
+    {
+        "quiz": "Quantas pessoas foram batizadas no dia de Pentecostes?",
+        "a": "300",
+        "b": "3.000",
+        "c": "5.000",
+        "d": "12.000",
+        "x": "b",
+        "ref": "Atos 2:41"
+    },
+    {
+        "quiz": "Qual era o nome do coxo curado por Pedro e João na porta do templo?",
+        "a": "Bartimeu",
+        "b": "Não é mencionado",
+        "c": "Simão",
+        "d": "Eneas",
+        "x": "b",
+        "ref": "Atos 3:2-8"
+    },
+    {
+        "quiz": "Quem foi o primeiro mártir cristão?",
+        "a": "Tiago",
+        "b": "Estevão",
+        "c": "Pedro",
+        "d": "Barnabé",
+        "x": "b",
+        "ref": "Atos 7:59-60"
+    },
+    {
+        "quiz": "Quem era o jovem que consentia na morte de Estevão?",
+        "a": "Lucas",
+        "b": "Barnabé",
+        "c": "Saulo",
+        "d": "Filipe",
+        "x": "c",
+        "ref": "Atos 8:1"
+    },
+    {
+        "quiz": "Quem batizou o eunuco etíope?",
+        "a": "Pedro",
+        "b": "Estevão",
+        "c": "Filipe",
+        "d": "Paulo",
+        "x": "c",
+        "ref": "Atos 8:38"
+    },
+    {
+        "quiz": "Qual era o nome hebraico de Paulo?",
+        "a": "Simão",
+        "b": "Saulo",
+        "c": "Barnabé",
+        "d": "Natanael",
+        "x": "b",
+        "ref": "Atos 13:9"
+    },
+    {
+        "quiz": "Em que caminho Saulo teve o encontro com Jesus?",
+        "a": "Jerusalém",
+        "b": "Samaria",
+        "c": "Damásco",
+        "d": "Éfeso",
+        "x": "c",
+        "ref": "Atos 9:3-4"
+    },
+    {
+        "quiz": "Quem foi enviado por Deus para orar por Saulo em Damasco?",
+        "a": "Pedro",
+        "b": "Tiago",
+        "c": "Ananias",
+        "d": "Silas",
+        "x": "c",
+        "ref": "Atos 9:10-17"
+    },
+    {
+        "quiz": "Quem foi ressuscitada por Pedro em Jope?",
+        "a": "Lídia",
+        "b": "Dorca",
+        "c": "Priscila",
+        "d": "Ana",
+        "x": "b",
+        "ref": "Atos 9:36-40"
+    },
+    {
+        "quiz": "Quem teve a visão de um lençol com animais impuros descendo do céu?",
+        "a": "Paulo",
+        "b": "Pedro",
+        "c": "João",
+        "d": "Estevão",
+        "x": "b",
+        "ref": "Atos 10:11-13"
+    },
+    {
+        "quiz": "Qual centurião romano recebeu o Espírito Santo junto com sua casa?",
+        "a": "Cláudio",
+        "b": "Félix",
+        "c": "Cornélio",
+        "d": "Agripa",
+        "x": "c",
+        "ref": "Atos 10:44-48"
+    },
+    {
+        "quiz": "Onde os discípulos foram chamados cristãos pela primeira vez?",
+        "a": "Jerusalém",
+        "b": "Roma",
+        "c": "Antioquia",
+        "d": "Filipos",
+        "x": "c",
+        "ref": "Atos 11:26"
+    },
+    {
+        "quiz": "Quem foi o primeiro apóstolo a ser morto?",
+        "a": "Pedro",
+        "b": "Tiago, irmão de João",
+        "c": "João",
+        "d": "Mateus",
+        "x": "b",
+        "ref": "Atos 12:2"
+    },
+    {
+        "quiz": "Quem foi libertado da prisão por um anjo?",
+        "a": "Pedro",
+        "b": "Paulo",
+        "c": "Silas",
+        "d": "Tiago",
+        "x": "a",
+        "ref": "Atos 12:7"
+    },
+    {
+        "quiz": "Quem acompanhou Paulo em sua primeira viagem missionária?",
+        "a": "Lucas",
+        "b": "Barnabé",
+        "c": "Silas",
+        "d": "Timóteo",
+        "x": "b",
+        "ref": "Atos 13:2-3"
+    },
+    {
+        "quiz": "Qual foi o castigo de Elimas, o mágico, por resistir ao evangelho?",
+        "a": "Ficou mudo",
+        "b": "Ficou cego",
+        "c": "Morreu",
+        "d": "Foi preso",
+        "x": "b",
+        "ref": "Atos 13:11"
+    },
+    {
+        "quiz": "Qual cidade foi sacudida do pó dos pés de Paulo e Barnabé?",
+        "a": "Antioquia",
+        "b": "Listra",
+        "c": "Icônio",
+        "d": "Éfeso",
+        "x": "a",
+        "ref": "Atos 13:51"
+    },
+    {
+        "quiz": "Quem foi apedrejado e dado como morto, mas reviveu?",
+        "a": "Silas",
+        "b": "Pedro",
+        "c": "Paulo",
+        "d": "Filipe",
+        "x": "c",
+        "ref": "Atos 14:19-20"
+    },
+    {
+        "quiz": "Em qual cidade Paulo teve a visão do 'varão macedônio'?",
+        "a": "Tiatira",
+        "b": "Troas",
+        "c": "Corinto",
+        "d": "Antioquia",
+        "x": "b",
+        "ref": "Atos 16:9"
+    },
+    {
+        "quiz": "Quem foi convertida à beira do rio e hospedou Paulo em Filipos?",
+        "a": "Lídia",
+        "b": "Dorca",
+        "c": "Priscila",
+        "d": "Débora",
+        "x": "a",
+        "ref": "Atos 16:14-15"
+    },
+    {
+        "quiz": "Quem estava com Paulo quando eles foram presos e cantaram na prisão?",
+        "a": "Barnabé",
+        "b": "Silas",
+        "c": "Timóteo",
+        "d": "Lucas",
+        "x": "b",
+        "ref": "Atos 16:25"
+    },
+    {
+        "quiz": "Qual jovem adormeceu durante a pregação de Paulo e caiu da janela?",
+        "a": "Eutíquio",
+        "b": "Timóteo",
+        "c": "Tíquico",
+        "d": "Epafrodito",
+        "x": "a",
+        "ref": "Atos 20:9"
+    },
+    {
+        "quiz": "Onde Paulo foi preso pela última vez em Atos?",
+        "a": "Jerusalém",
+        "b": "Cesaréia",
+        "c": "Roma",
+        "d": "Corinto",
+        "x": "c",
+        "ref": "Atos 28:16"
+    },
+    {
+        "quiz": "Qual rei ouviu Paulo e disse: 'Por pouco me persuades a ser cristão'?",
+        "a": "Festo",
+        "b": "Herodes",
+        "c": "Agripa",
+        "d": "Nero",
+        "x": "c",
+        "ref": "Atos 26:28"
+    },
+    {
+        "quiz": "Qual foi o nome da ilha onde Paulo naufragou?",
+        "a": "Chipre",
+        "b": "Malta",
+        "c": "Creta",
+        "d": "Patmos",
+        "x": "b",
+        "ref": "Atos 28:1"
+    }
+]
