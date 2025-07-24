@@ -171,6 +171,10 @@ class MultiplayerQuiz {
     }
 
     displayQuestion() {
+        // Remover feedback anterior
+        const oldFeedback = document.querySelector('#multiGame .quiz-feedback');
+        if (oldFeedback) oldFeedback.remove();
+
         // Pula perguntas já respondidas
         while (this.currentQuestionIndex < this.multiQuestions.length &&
             this.skippedQuestions.has(this.currentQuestionIndex)) {
