@@ -20,9 +20,10 @@
 - Multiplayer local (desafie amigos)
 
 **Experiência Premium**  
-- PWA (instalável e funciona offline)  
+- PWA (instalável e funciona offline) 
 - Animações fluidas e design intuitivo  
-- 100% responsivo (mobile, tablet, desktop) 
+- 100% responsivo (mobile, tablet, desktop)
+- Efeitos sonoros
 
 # [Downloads](https://github.com/samuelsantanaoficial/jsonquiz/releases/latest)
 
@@ -82,6 +83,7 @@ Use a estrutura JSON abaixo (*arquivo completo na pasta* `/dist/`):
 > 1. Use letras minúsculas em `x` (`a`, `b`, `c`, `d`)
 > 2. Sempre coloque vírgula entre perguntas
 > 3. Não use espaços após as vírgulas
+> 4. `ref` e `link` são opcionais  
 
 ---
 
