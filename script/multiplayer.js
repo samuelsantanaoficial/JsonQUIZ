@@ -9,7 +9,7 @@ class MultiplayerQuiz {
         this.currentQuestionIndex = 0;
         this.currentPlayerIndex = 0;
         this.timer = null; // Defined as a property of the class
-        this.timeLeft = 15; // Defined as a property of the class
+        this.timeLeft = 20; // Defined as a property of the class
         this.gameActive = false;
         this.skippedQuestions = new Set(); // Armazena índices de perguntas já respondidas
 
@@ -219,8 +219,6 @@ class MultiplayerQuiz {
         audioTimer.volume = 0.5;
         audioTimer.currentTime = 0;
         audioTimer.play();
-
-        this.timeLeft = 15; // Use this.timeLeft
 
         const multiTimerDisplay = this.createOrGetTimerDisplay(); // Call local helper method
         multiTimerDisplay.textContent = this.timeLeft;
