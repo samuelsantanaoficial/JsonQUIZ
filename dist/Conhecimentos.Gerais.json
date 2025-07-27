@@ -1,0 +1,98 @@
+[
+    {
+        "quiz": "Em que país se originou o idioma espanhol?",
+        "a": "México",
+        "b": "Argentina",
+        "c": "Espanha",
+        "d": "Peru",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual é a capital da França?",
+        "a": "Paris",
+        "b": "Roma",
+        "c": "Berlim",
+        "d": "Londres",
+        "x": "a"
+    },
+    {
+        "quiz": "Quantos segundos há em um minuto?",
+        "a": "60",
+        "b": "100",
+        "c": "120",
+        "d": "90",
+        "x": "a"
+    },
+    {
+        "quiz": "Que animal é conhecido por sua capacidade de mudar de cor?",
+        "a": "Polvo",
+        "b": "Camaleão",
+        "c": "Tigre",
+        "d": "Águia",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual é a capital do Japão?",
+        "a": "Pequim",
+        "b": "Tóquio",
+        "c": "Seul",
+        "d": "Bangcoc",
+        "x": "b"
+    },
+    {
+        "quiz": "Quantos graus tem um ângulo reto?",
+        "a": "90",
+        "b": "45",
+        "c": "180",
+        "d": "360",
+        "x": "a"
+    },
+    {
+        "quiz": "Qual é o órgão do corpo humano responsável por bombear o sangue?",
+        "a": "Pulmão",
+        "b": "Coração",
+        "c": "Fígado",
+        "d": "Rim",
+        "x": "b"
+    },
+    {
+        "quiz": "Em que continente fica o deserto do Saara?",
+        "a": "Ásia",
+        "b": "América",
+        "c": "África",
+        "d": "Europa",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual é o maior órgão do corpo humano?",
+        "a": "Fígado",
+        "b": "Pulmão",
+        "c": "Cérebro",
+        "d": "Pele",
+        "x": "d"
+    },
+    {
+        "quiz": "Qual é o valor de π (pi) arredondado para duas casas decimais?",
+        "a": "3,12",
+        "b": "3,14",
+        "c": "3,16",
+        "d": "3,18",
+        "x": "b"
+    },
+    {
+        "quiz": "Em que país se originou a arte marcial chamada judô?",
+        "a": "Coreia do Sul",
+        "b": "China",
+        "c": "Japão",
+        "d": "Tailândia",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual é o plural de 'cidadão'?",
+        "a": "Cidadãos",
+        "b": "Cidadães",
+        "c": "Cidadões",
+        "d": "Cidades",
+        "x": "a"
+    }
+]
