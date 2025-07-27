@@ -29,9 +29,7 @@ function backToModeSelector() {
     document.getElementById('questionsFile').value = '';
 
     // Reset variáveis do modo individual
-    questions = [];
     currentQuestionIndex = 0;
-    usedQuestions = [];
 
     const audioTimer = document.getElementById('audioTimer');
     audioTimer.pause();

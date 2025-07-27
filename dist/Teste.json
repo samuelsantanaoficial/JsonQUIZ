@@ -1,0 +1,29 @@
+[
+    {
+        "quiz": "Pergunda sem referência e sem link",
+        "a": "Resposta A",
+        "b": "Resposta B",
+        "c": "Resposta C",
+        "d": "Resposta D",
+        "x": "a"
+    },
+    {
+        "quiz": "Pergunda com referência mas sem link",
+        "a": "Resposta A",
+        "b": "Resposta B",
+        "c": "Resposta C",
+        "d": "Resposta D",
+        "x": "b",
+        "ref": "Referência"
+    },
+    {
+        "quiz": "Pergunda com referência e com link",
+        "a": "Resposta A",
+        "b": "Resposta B",
+        "c": "Resposta C",
+        "d": "Resposta D",
+        "x": "c",
+        "ref": "Referência",
+        "link": "https://www.google.com"
+    }
+]
