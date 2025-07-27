@@ -1,66 +1,130 @@
 [
-  {
-    "quiz": "Quantas pernas tem uma aranha?",
-    "a": "6 Seis",
-    "b": "4 Quatro",
-    "c": "8 Oito",
-    "d": "10 Dez",
-    "x": "c"
-  },
-  {
-    "quiz": "Qual animal é conhecido como o rei da selva?",
-    "a": "Elefante",
-    "b": "Leão",
-    "c": "Macaco",
-    "d": "Tigre",
-    "x": "b"
-  },
-  {
-    "quiz": "Qual é a cor do céu em um dia sem nuvens?",
-    "a": "Azul",
-    "b": "Verde",
-    "c": "Amarelo",
-    "d": "Cinza",
-    "x": "a"
-  },
-  {
-    "quiz": "Qual fruta é amarela por fora e branca por dentro?",
-    "a": "Maçã",
-    "b": "Laranja",
-    "c": "Banana",
-    "d": "Melancia",
-    "x": "c"
-  },
-  {
-    "quiz": "Quantos dedos temos nas mãos (juntas)?",
-    "a": "5 Cinco",
-    "b": "10 Dez",
-    "c": "20 Vinte",
-    "d": "15 Quinze",
-    "x": "b"
-  },
-  {
-    "quiz": "O que usamos para enxergar?",
-    "a": "Ouvidos",
-    "b": "Nariz",
-    "c": "Olhos",
-    "d": "Boca",
-    "x": "c"
-  },
-  {
-    "quiz": "De que cor é o sangue?",
-    "a": "Azul",
-    "b": "Verde",
-    "c": "Vermelho",
-    "d": "Preto",
-    "x": "c"
-  },
-  {
-    "quiz": "Com que letra começa a palavra 'elefante'?",
-    "a": "E",
-    "b": "L",
-    "c": "F",
-    "d": "T",
-    "x": "a"
-  }
+    {
+        "quiz": "Quantas pernas tem uma aranha?",
+        "a": "6 Seis",
+        "b": "4 Quatro",
+        "c": "8 Oito",
+        "d": "10 Dez",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual animal é conhecido como o rei da selva?",
+        "a": "Elefante",
+        "b": "Leão",
+        "c": "Macaco",
+        "d": "Tigre",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual é a cor do céu em um dia sem nuvens?",
+        "a": "Azul",
+        "b": "Verde",
+        "c": "Amarelo",
+        "d": "Cinza",
+        "x": "a"
+    },
+    {
+        "quiz": "Qual fruta é amarela por fora e branca por dentro?",
+        "a": "Maçã",
+        "b": "Laranja",
+        "c": "Banana",
+        "d": "Melancia",
+        "x": "c"
+    },
+    {
+        "quiz": "Quantos dedos temos nas mãos (juntas)?",
+        "a": "5 Cinco",
+        "b": "10 Dez",
+        "c": "20 Vinte",
+        "d": "15 Quinze",
+        "x": "b"
+    },
+    {
+        "quiz": "O que usamos para enxergar?",
+        "a": "Ouvidos",
+        "b": "Nariz",
+        "c": "Olhos",
+        "d": "Boca",
+        "x": "c"
+    },
+    {
+        "quiz": "De que cor é o sangue?",
+        "a": "Azul",
+        "b": "Verde",
+        "c": "Vermelho",
+        "d": "Preto",
+        "x": "c"
+    },
+    {
+        "quiz": "Com que letra começa a palavra 'elefante'?",
+        "a": "E",
+        "b": "L",
+        "c": "F",
+        "d": "T",
+        "x": "a"
+    },
+    {
+        "quiz": "Qual animal bota ovos?",
+        "a": "Gato",
+        "b": "Cachorro",
+        "c": "Galinha",
+        "d": "Cavalo",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual o nome do planeta onde vivemos?",
+        "a": "Marte",
+        "b": "Lua",
+        "c": "Sol",
+        "d": "Terra",
+        "x": "d"
+    },
+    {
+        "quiz": "Qual desses animais vive na água?",
+        "a": "Cavalo",
+        "b": "Peixe",
+        "c": "Gato",
+        "d": "Leão",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual é a cor da grama?",
+        "a": "Azul",
+        "b": "Vermelha",
+        "c": "Verde",
+        "d": "Roxa",
+        "x": "c"
+    },
+    {
+        "quiz": "Com quantas patas anda um cavalo?",
+        "a": "Duas",
+        "b": "Três",
+        "c": "Quatro",
+        "d": "Seis",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual desses objetos usamos para cortar papel?",
+        "a": "Caneta",
+        "b": "Tesoura",
+        "c": "Cola",
+        "d": "Régua",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual é o nome do lugar onde estudamos?",
+        "a": "Loja",
+        "b": "Escola",
+        "c": "Hospital",
+        "d": "Igreja",
+        "x": "b"
+    },
+    {
+        "quiz": "Que número vem depois do 9?",
+        "a": "8",
+        "b": "10",
+        "c": "11",
+        "d": "7",
+        "x": "b"
+    }
 ]
