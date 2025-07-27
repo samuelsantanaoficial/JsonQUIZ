@@ -1,146 +1,146 @@
 [
-  {
-    "quiz": "O que significa a sigla DM nas redes sociais?",
-    "a": "Documento Móvel",
-    "b": "Direção de Mídia",
-    "c": "Mensagem Direta",
-    "d": "Download Manual",
-    "x": "c"
-  },
-  {
-    "quiz": "Qual símbolo é utilizado para marcar uma hashtag?",
-    "a": "@",
-    "b": "#",
-    "c": "&",
-    "d": "%",
-    "x": "b"
-  },
-  {
-    "quiz": "Qual símbolo é usado para mencionar um usuário em redes sociais?",
-    "a": "#",
-    "b": "*",
-    "c": "@",
-    "d": "&",
-    "x": "c"
-  },
-  {
-    "quiz": "O que significa 'seguir' um perfil em uma rede social?",
-    "a": "Copiar o conteúdo do perfil",
-    "b": "Receber atualizações públicas do perfil",
-    "c": "Enviar mensagens privadas automaticamente",
-    "d": "Bloquear o perfil",
-    "x": "b"
-  },
-  {
-    "quiz": "Qual é a função principal de um botão 'curtir' nas redes sociais?",
-    "a": "Compartilhar um conteúdo",
-    "b": "Salvar um conteúdo",
-    "c": "Indicar que gostou de um conteúdo",
-    "d": "Editar o conteúdo",
-    "x": "c"
-  },
-  {
-    "quiz": "O que é um 'feed' em uma rede social?",
-    "a": "Área de login",
-    "b": "Lista de seguidores",
-    "c": "Fluxo de postagens exibido ao usuário",
-    "d": "Caixa de entrada de mensagens",
-    "x": "c"
-  },
-  {
-    "quiz": "O que significa 'compartilhar' uma publicação?",
-    "a": "Excluir a publicação",
-    "b": "Enviar a publicação apenas por e-mail",
-    "c": "Reenviar ou divulgar a publicação para outros usuários",
-    "d": "Editar a publicação original",
-    "x": "c"
-  },
-  {
-    "quiz": "O que caracteriza uma conta 'privada' em redes sociais?",
-    "a": "É uma conta para empresas",
-    "b": "Só permite ver o conteúdo com permissão do dono",
-    "c": "Está bloqueada temporariamente",
-    "d": "Publica automaticamente",
-    "x": "b"
-  },
-  {
-    "quiz": "Qual é a função de um 'comentário' em uma publicação?",
-    "a": "Alterar o conteúdo publicado",
-    "b": "Responder ou interagir com o conteúdo publicado",
-    "c": "Apagar a publicação original",
-    "d": "Criar um novo perfil",
-    "x": "b"
-  },
-  {
-    "quiz": "O que é um 'perfil falso'?",
-    "a": "Uma conta usada para fins publicitários",
-    "b": "Uma conta de backup",
-    "c": "Uma conta criada com informações falsas",
-    "d": "Uma conta não verificada",
-    "x": "c"
-  },
-  {
-    "quiz": "O que é necessário para acessar uma rede social?",
-    "a": "Uma assinatura de jornal",
-    "b": "Uma conta com login e senha",
-    "c": "Um número de telefone fixo",
-    "d": "Um e-mail impresso",
-    "x": "b"
-  },
-  {
-    "quiz": "Qual é o nome da imagem que representa o usuário em um perfil?",
-    "a": "Feed",
-    "b": "Banner",
-    "c": "Foto de perfil ou avatar",
-    "d": "Hashtag",
-    "x": "c"
-  },
-  {
-    "quiz": "O que acontece ao 'bloquear' um usuário?",
-    "a": "Ele pode ver seu perfil, mas não comentar",
-    "b": "Ele continua recebendo suas postagens",
-    "c": "Ele perde acesso ao seu conteúdo e não pode interagir",
-    "d": "Ele é automaticamente denunciado",
-    "x": "c"
-  },
-  {
-    "quiz": "Qual é a principal função de uma rede social?",
-    "a": "Programar aplicativos",
-    "b": "Compartilhar conteúdo e interagir com outras pessoas",
-    "c": "Jogar online",
-    "d": "Assistir televisão",
-    "x": "b"
-  },
-  {
-    "quiz": "Qual foi a primeira rede social a alcançar 1 bilhão de usuários ativos?",
-    "a": "Instagram",
-    "b": "Facebook",
-    "c": "Twitter",
-    "d": "Orkut",
-    "x": "b"
-  },
-  {
-    "quiz": "Qual dessas redes sociais foi originalmente criada para networking profissional?",
-    "a": "Facebook",
-    "b": "LinkedIn",
-    "c": "Instagram",
-    "d": "Snapchat",
-    "x": "b"
-  },
-  {
-    "quiz": "Qual das opções abaixo é considerada uma rede social de vídeo curto?",
-    "a": "Reddit",
-    "b": "Pinterest",
-    "c": "TikTok",
-    "d": "WhatsApp",
-    "x": "c"
-  },
-  {
-    "quiz": "Qual das alternativas é um risco comum em redes sociais?",
-    "a": "Engenharia social",
-    "b": "Cálculo de impostos",
-    "c": "Problemas com hardware",
-    "d": "Perda de sinal de Wi-Fi",
-    "x": "a"
-  }
+    {
+        "quiz": "O que significa a sigla DM nas redes sociais?",
+        "a": "Documento Móvel",
+        "b": "Direção de Mídia",
+        "c": "Mensagem Direta",
+        "d": "Download Manual",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual símbolo é utilizado para marcar uma hashtag?",
+        "a": "@",
+        "b": "#",
+        "c": "&",
+        "d": "%",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual símbolo é usado para mencionar um usuário em redes sociais?",
+        "a": "#",
+        "b": "*",
+        "c": "@",
+        "d": "&",
+        "x": "c"
+    },
+    {
+        "quiz": "O que significa 'seguir' um perfil em uma rede social?",
+        "a": "Copiar o conteúdo do perfil",
+        "b": "Receber atualizações públicas do perfil",
+        "c": "Enviar mensagens privadas automaticamente",
+        "d": "Bloquear o perfil",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual é a função principal de um botão 'curtir' nas redes sociais?",
+        "a": "Compartilhar um conteúdo",
+        "b": "Salvar um conteúdo",
+        "c": "Indicar que gostou de um conteúdo",
+        "d": "Editar o conteúdo",
+        "x": "c"
+    },
+    {
+        "quiz": "O que é um 'feed' em uma rede social?",
+        "a": "Área de login",
+        "b": "Lista de seguidores",
+        "c": "Fluxo de postagens exibido ao usuário",
+        "d": "Caixa de entrada de mensagens",
+        "x": "c"
+    },
+    {
+        "quiz": "O que significa 'compartilhar' uma publicação?",
+        "a": "Excluir a publicação",
+        "b": "Enviar a publicação apenas por e-mail",
+        "c": "Reenviar ou divulgar a publicação para outros usuários",
+        "d": "Editar a publicação original",
+        "x": "c"
+    },
+    {
+        "quiz": "O que caracteriza uma conta 'privada' em redes sociais?",
+        "a": "É uma conta para empresas",
+        "b": "Só permite ver o conteúdo com permissão do dono",
+        "c": "Está bloqueada temporariamente",
+        "d": "Publica automaticamente",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual é a função de um 'comentário' em uma publicação?",
+        "a": "Alterar o conteúdo publicado",
+        "b": "Responder ou interagir com o conteúdo publicado",
+        "c": "Apagar a publicação original",
+        "d": "Criar um novo perfil",
+        "x": "b"
+    },
+    {
+        "quiz": "O que é um 'perfil falso'?",
+        "a": "Uma conta usada para fins publicitários",
+        "b": "Uma conta de backup",
+        "c": "Uma conta criada com informações falsas",
+        "d": "Uma conta não verificada",
+        "x": "c"
+    },
+    {
+        "quiz": "O que é necessário para acessar uma rede social?",
+        "a": "Uma assinatura de jornal",
+        "b": "Uma conta com login e senha",
+        "c": "Um número de telefone fixo",
+        "d": "Um e-mail impresso",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual é o nome da imagem que representa o usuário em um perfil?",
+        "a": "Feed",
+        "b": "Banner",
+        "c": "Foto de perfil ou avatar",
+        "d": "Hashtag",
+        "x": "c"
+    },
+    {
+        "quiz": "O que acontece ao 'bloquear' um usuário?",
+        "a": "Ele pode ver seu perfil, mas não comentar",
+        "b": "Ele continua recebendo suas postagens",
+        "c": "Ele perde acesso ao seu conteúdo e não pode interagir",
+        "d": "Ele é automaticamente denunciado",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual é a principal função de uma rede social?",
+        "a": "Programar aplicativos",
+        "b": "Compartilhar conteúdo e interagir com outras pessoas",
+        "c": "Jogar online",
+        "d": "Assistir televisão",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual foi a primeira rede social a alcançar 1 bilhão de usuários ativos?",
+        "a": "Instagram",
+        "b": "Facebook",
+        "c": "Twitter",
+        "d": "Orkut",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual dessas redes sociais foi originalmente criada para networking profissional?",
+        "a": "Facebook",
+        "b": "LinkedIn",
+        "c": "Instagram",
+        "d": "Snapchat",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual das opções abaixo é considerada uma rede social de vídeo curto?",
+        "a": "Reddit",
+        "b": "Pinterest",
+        "c": "TikTok",
+        "d": "WhatsApp",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual das alternativas é um risco comum em redes sociais?",
+        "a": "Engenharia social",
+        "b": "Cálculo de impostos",
+        "c": "Problemas com hardware",
+        "d": "Perda de sinal de Wi-Fi",
+        "x": "a"
+    }
 ]
