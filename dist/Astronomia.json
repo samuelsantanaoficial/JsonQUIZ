@@ -1,0 +1,186 @@
+[
+    {
+        "quiz": "Qual planeta do sistema solar possui o maior número de luas conhecidas?",
+        "a": "Terra",
+        "b": "Marte",
+        "c": "Júpiter",
+        "d": "Saturno",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual é o nome da galáxia onde se encontra o sistema solar?",
+        "a": "Via Láctea",
+        "b": "Andrômeda",
+        "c": "Órion",
+        "d": "Triângulo",
+        "x": "a"
+    },
+    {
+        "quiz": "Qual é a estrela mais próxima da Terra?",
+        "a": "Sirius",
+        "b": "Alpha Centauri",
+        "c": "Sol",
+        "d": "Betelgeuse",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual planeta tem o dia mais longo em relação à sua rotação?",
+        "a": "Vênus",
+        "b": "Mercúrio",
+        "c": "Marte",
+        "d": "Urano",
+        "x": "a"
+    },
+    {
+        "quiz": "Qual planeta é conhecido por seus anéis visíveis?",
+        "a": "Netuno",
+        "b": "Saturno",
+        "c": "Urano",
+        "d": "Júpiter",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual é o nome dado a um grupo de estrelas que forma um desenho no céu?",
+        "a": "Asteroide",
+        "b": "Constelação",
+        "c": "Cometa",
+        "d": "Satélite",
+        "x": "b"
+    },
+    {
+        "quiz": "Quantos planetas compõem o sistema solar (considerando a classificação atual)?",
+        "a": "7",
+        "b": "8",
+        "c": "9",
+        "d": "10",
+        "x": "b"
+    },
+    {
+        "quiz": "O que é uma supernova?",
+        "a": "Um planeta em formação",
+        "b": "Uma explosão estelar",
+        "c": "Uma estrela pequena",
+        "d": "Um cometa com cauda dupla",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual planeta tem as maiores tempestades registradas?",
+        "a": "Terra",
+        "b": "Júpiter",
+        "c": "Saturno",
+        "d": "Netuno",
+        "x": "b"
+    },
+    {
+        "quiz": "O que é a Lua em relação à Terra?",
+        "a": "Um planeta",
+        "b": "Uma estrela",
+        "c": "Um satélite natural",
+        "d": "Um asteroide",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual planeta é o mais próximo do Sol?",
+        "a": "Vênus",
+        "b": "Terra",
+        "c": "Mercúrio",
+        "d": "Marte",
+        "x": "c"
+    },
+    {
+        "quiz": "O que é uma galáxia?",
+        "a": "Um grupo de cometas",
+        "b": "Uma estrela muito brilhante",
+        "c": "Um conjunto de estrelas, planetas e poeira cósmica",
+        "d": "Um tipo de buraco negro",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual destes planetas é classificado como gasoso?",
+        "a": "Marte",
+        "b": "Mercúrio",
+        "c": "Júpiter",
+        "d": "Terra",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual é o maior planeta do sistema solar?",
+        "a": "Saturno",
+        "b": "Urano",
+        "c": "Netuno",
+        "d": "Júpiter",
+        "x": "d"
+    },
+    {
+        "quiz": "Em que fase a Lua está completamente iluminada?",
+        "a": "Minguante",
+        "b": "Nova",
+        "c": "Cheia",
+        "d": "Crescente",
+        "x": "c"
+    },
+    {
+        "quiz": "O que é um eclipse solar?",
+        "a": "Quando a Lua desaparece do céu",
+        "b": "Quando a Terra se alinha com Vênus",
+        "c": "Quando a Lua bloqueia a luz do Sol para a Terra",
+        "d": "Quando o Sol se apaga temporariamente",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual é a unidade usada para medir grandes distâncias no espaço?",
+        "a": "Metro",
+        "b": "Quilômetro",
+        "c": "Ano-luz",
+        "d": "Segundos-luz",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual planeta é conhecido como o 'planeta vermelho'?",
+        "a": "Saturno",
+        "b": "Netuno",
+        "c": "Marte",
+        "d": "Urano",
+        "x": "c"
+    },
+    {
+        "quiz": "O que é uma estrela cadente?",
+        "a": "Uma estrela que caiu do céu",
+        "b": "Um meteoro entrando na atmosfera terrestre",
+        "c": "Um planeta pequeno",
+        "d": "Um cometa em alta velocidade",
+        "x": "b"
+    },
+    {
+        "quiz": "Quantas luas naturais a Terra possui?",
+        "a": "1",
+        "b": "2",
+        "c": "Nenhuma",
+        "d": "4",
+        "x": "a"
+    },
+    {
+        "quiz": "O que é um buraco negro?",
+        "a": "Uma estrela que ainda vai nascer",
+        "b": "Uma abertura no espaço para outro universo",
+        "c": "Uma região com gravidade tão intensa que nem a luz escapa",
+        "d": "Um planeta escuro",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual planeta tem o dia mais longo do sistema solar?",
+        "a": "Terra",
+        "b": "Vênus",
+        "c": "Saturno",
+        "d": "Júpiter",
+        "x": "b"
+    },
+    {
+        "quiz": "O que é a rotação da Terra?",
+        "a": "Movimento ao redor do Sol",
+        "b": "Movimento em torno do próprio eixo",
+        "c": "Mudança da órbita",
+        "d": "Inclinação do equador",
+        "x": "b"
+    }
+]
