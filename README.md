@@ -25,7 +25,7 @@
 - 100% responsivo (mobile, tablet, desktop)
 - Efeitos sonoros
 
-# [Downloads](https://github.com/samuelsantanaoficial/jsonquiz/releases/latest)
+# [Downloads](https://github.com/samuelsantanaoficial/JsonQUIZ/releases/latest)
 
 ---
 
@@ -42,7 +42,7 @@
 
 1. **Carregue suas perguntas**:
    - Clique no botão "Importar JSON"
-   - Você pode **baixar perguntas prontas [aqui](https://github.com/samuelsantanaoficial/jsonquiz/releases/latest)**
+   - Você pode **baixar perguntas prontas [aqui](https://github.com/samuelsantanaoficial/JsonQUIZ/releases/latest)**
 
 2. **Jogue com amigos**:
    - Aproveita o aplicativo com seus amigos.
