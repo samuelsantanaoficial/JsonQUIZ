@@ -1,0 +1,202 @@
+[
+    {
+        "quiz": "Quem era o pai de José?",
+        "a": "Moisés",
+        "b": "Abraão",
+        "c": "Isaque",
+        "d": "Jacó",
+        "x": "d",
+        "ref": "gn.37.3",
+        "link": "https://bible.com/bible/211/GEN.37.3"
+    },
+    {
+        "quiz": "Quantos irmãos José tinha?",
+        "a": "10",
+        "b": "11",
+        "c": "12",
+        "d": "13",
+        "x": "b",
+        "ref": "gn.35.22",
+        "link": "https://bible.com/bible/211/GEN.35.22"
+    },
+    {
+        "quiz": "O que o pai de José lhe deu de presente?",
+        "a": "Um rebanho",
+        "b": "Uma túnica colorida",
+        "c": "Uma espada",
+        "d": "Um anel de ouro",
+        "x": "b",
+        "ref": "gn.37.3",
+        "link": "https://bible.com/bible/211/GEN.37.3"
+    },
+    {
+        "quiz": "Por que os irmãos de José o odiavam?",
+        "a": "Ele era preguiçoso",
+        "b": "Ele roubava",
+        "c": "Seu pai gostava mais dele",
+        "d": "Ele era mais velho",
+        "x": "c",
+        "ref": "gn.37.4",
+        "link": "https://bible.com/bible/211/GEN.37.4"
+    },
+    {
+        "quiz": "O que José sonhou que fez seus irmãos ficarem com inveja?",
+        "a": "Que ele seria rei",
+        "b": "Que seus irmãos se curvavam diante dele",
+        "c": "Que ele teria muitos filhos",
+        "d": "Que ele venceria batalhas",
+        "x": "b",
+        "ref": "gn.37.7-8",
+        "link": "https://bible.com/bible/211/GEN.37.7-8"
+    },
+    {
+        "quiz": "O que os irmãos de José fizeram com ele?",
+        "a": "Levaram para casa",
+        "b": "Matam-no",
+        "c": "Jogaram-no num poço e venderam como escravo",
+        "d": "Mandaram-no para a escola",
+        "x": "c",
+        "ref": "gn.37.24-28",
+        "link": "https://bible.com/bible/211/GEN.37.24-28"
+    },
+    {
+        "quiz": "Quem comprou José como escravo no Egito?",
+        "a": "Faraó",
+        "b": "Potifar",
+        "c": "Ramsés",
+        "d": "Arão",
+        "x": "b",
+        "ref": "gn.39.1",
+        "link": "https://bible.com/bible/211/GEN.39.1"
+    },
+    {
+        "quiz": "Por que José foi preso no Egito?",
+        "a": "Furto",
+        "b": "Mentira da esposa de Potifar",
+        "c": "Desobedecer Faraó",
+        "d": "Brigar com guardas",
+        "x": "b",
+        "ref": "gn.39.7-20",
+        "link": "https://bible.com/bible/211/GEN.39.7-20"
+    },
+    {
+        "quiz": "Quem teve sonhos na prisão que José interpretou?",
+        "a": "Dois soldados",
+        "b": "Dois escravos",
+        "c": "O copeiro e o padeiro do rei",
+        "d": "O faraó e o sacerdote",
+        "x": "c",
+        "ref": "gn.40.5",
+        "link": "https://bible.com/bible/211/GEN.40.5"
+    },
+    {
+        "quiz": "Quem foi restaurado ao seu cargo após o sonho interpretado por José?",
+        "a": "Padeiro",
+        "b": "Copeiro",
+        "c": "Guarda",
+        "d": "Príncipe",
+        "x": "b",
+        "ref": "gn.40.21",
+        "link": "https://bible.com/bible/211/GEN.40.21"
+    },
+    {
+        "quiz": "Quantos anos tinha José quando foi levado ao Egito?",
+        "a": "20",
+        "b": "15",
+        "c": "17",
+        "d": "30",
+        "x": "c",
+        "ref": "gn.37.2",
+        "link": "https://bible.com/bible/211/GEN.37.2"
+    },
+    {
+        "quiz": "Quem teve um sonho que ninguém conseguia interpretar?",
+        "a": "José",
+        "b": "Jacó",
+        "c": "Potifar",
+        "d": "Faraó",
+        "x": "d",
+        "ref": "gn.41.8",
+        "link": "https://bible.com/bible/211/GEN.41.8"
+    },
+    {
+        "quiz": "O que significava o sonho de Faraó?",
+        "a": "Sete anos de fartura e sete de fome",
+        "b": "Vitória sobre os inimigos",
+        "c": "Casamento e filhos",
+        "d": "Enchente no Egito",
+        "x": "a",
+        "ref": "gn.41.25-30",
+        "link": "https://bible.com/bible/211/GEN.41.25-30"
+    },
+    {
+        "quiz": "Quem sugeriu José como intérprete de sonhos?",
+        "a": "Potifar",
+        "b": "Padeiro",
+        "c": "Copeiro",
+        "d": "Jacó",
+        "x": "c",
+        "ref": "gn.41.9-13",
+        "link": "https://bible.com/bible/211/GEN.41.9-13"
+    },
+    {
+        "quiz": "Com quantos anos José foi governador do Egito?",
+        "a": "25",
+        "b": "30",
+        "c": "35",
+        "d": "40",
+        "x": "b",
+        "ref": "gn.41.46",
+        "link": "https://bible.com/bible/211/GEN.41.46"
+    },
+    {
+        "quiz": "Qual foi a primeira atitude de José como governador?",
+        "a": "Construir pirâmides",
+        "b": "Criar leis",
+        "c": "Estocar alimentos",
+        "d": "Prender rebeldes",
+        "x": "c",
+        "ref": "gn.41.48-49",
+        "link": "https://bible.com/bible/211/GEN.41.48-49"
+    },
+    {
+        "quiz": "Por que os irmãos de José foram ao Egito?",
+        "a": "Passear",
+        "b": "Buscar comida",
+        "c": "Trabalhar",
+        "d": "Ver José",
+        "x": "b",
+        "ref": "gn.42.1-3",
+        "link": "https://bible.com/bible/211/GEN.42.1-3"
+    },
+    {
+        "quiz": "José foi reconhecido pelos irmãos imediatamente?",
+        "a": "Sim",
+        "b": "Não",
+        "c": "Apenas Rúben o reconheceu",
+        "d": "Apenas Benjamim",
+        "x": "b",
+        "ref": "gn.42.7-8",
+        "link": "https://bible.com/bible/211/GEN.42.7-8"
+    },
+    {
+        "quiz": "Que irmão José exigiu que trouxessem ao Egito?",
+        "a": "Rúben",
+        "b": "Judá",
+        "c": "Benjamim",
+        "d": "Simeão",
+        "x": "c",
+        "ref": "gn.42.15",
+        "link": "https://bible.com/bible/211/GEN.42.15"
+    },
+    {
+        "quiz": "Qual irmão ficou como garantia no Egito?",
+        "a": "Levi",
+        "b": "Judá",
+        "c": "Simeão",
+        "d": "Isacar",
+        "x": "c",
+        "ref": "gn.42.24",
+        "link": "https://bible.com/bible/211/GEN.42.24"
+    }
+]
