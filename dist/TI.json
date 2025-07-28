@@ -1,59 +1,11 @@
 [
     {
-        "quiz": "O que significa a sigla 'CPU'?",
-        "a": "Central Power Unit",
-        "b": "Control Program Utility",
-        "c": "Central Processing Unit",
-        "d": "Computer Peripheral Unit",
-        "x": "c"
-    },
-    {
-        "quiz": "Qual dessas é uma linguagem de programação?",
-        "a": "Photoshop",
-        "b": "Python",
-        "c": "Windows",
-        "d": "Chrome",
-        "x": "b"
-    },
-    {
         "quiz": "Qual empresa desenvolveu o sistema operacional Windows?",
         "a": "Apple",
-        "b": "IBM",
+        "b": "Samsung",
         "c": "Microsoft",
         "d": "Google",
         "x": "c"
-    },
-    {
-        "quiz": "O que é um software?",
-        "a": "Parte física do computador",
-        "b": "Um tipo de vírus",
-        "c": "Parte lógica do sistema",
-        "d": "Um componente eletrônico",
-        "x": "c"
-    },
-    {
-        "quiz": "O que é um navegador de internet?",
-        "a": "Programa para editar textos",
-        "b": "Software para acessar a web",
-        "c": "Antivírus",
-        "d": "Sistema operacional",
-        "x": "b"
-    },
-    {
-        "quiz": "Qual dispositivo é usado para entrada de dados?",
-        "a": "Monitor",
-        "b": "Impressora",
-        "c": "Teclado",
-        "d": "Caixa de som",
-        "x": "c"
-    },
-    {
-        "quiz": "O que significa a sigla 'URL'?",
-        "a": "Universal Resource Locator",
-        "b": "Unified Record Language",
-        "c": "Unlimited Read Logic",
-        "d": "User Remote Link",
-        "x": "a"
     },
     {
         "quiz": "Qual é a função principal de um roteador?",
@@ -77,6 +29,38 @@
         "b": "Watts",
         "c": "Bytes",
         "d": "Ohms",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual empresa criou o sistema operacional Android?",
+        "a": "Samsung",
+        "b": "Apple",
+        "c": "Microsoft",
+        "d": "Google",
+        "x": "d"
+    },
+    {
+        "quiz": "O que é um SSD?",
+        "a": "Um tipo de cabo de energia",
+        "b": "Unidade de estado sólido para armazenamento",
+        "c": "Software de desenvolvimento de sistemas",
+        "d": "Sensor de segurança digital",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual a função do Bluetooth?",
+        "a": "Conexão sem fio de curta distância",
+        "b": "Navegação GPS por satélite",
+        "c": "Proteção contra vírus",
+        "d": "Conexão com impressoras via cabo",
+        "x": "a"
+    },
+    {
+        "quiz": "Qual componente é responsável pelo processamento gráfico?",
+        "a": "CPU",
+        "b": "SSD",
+        "c": "GPU",
+        "d": "RAM",
         "x": "c"
     }
 ]
