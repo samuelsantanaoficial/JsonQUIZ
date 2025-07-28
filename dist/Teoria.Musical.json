@@ -1,0 +1,154 @@
+[
+    {
+        "quiz": "Quantos tons tem uma oitava?",
+        "a": "5 tons",
+        "b": "6 tons",
+        "c": "7 tons",
+        "d": "12 tons",
+        "x": "b"
+    },
+    {
+        "quiz": "Quantos semitons tem uma oitava?",
+        "a": "6 semitons",
+        "b": "8 semitons",
+        "c": "10 semitons",
+        "d": "12 semitons",
+        "x": "d"
+    },
+    {
+        "quiz": "Qual a fórmula correta para uma escala maior natural?",
+        "a": "T-S-T-T-S-T-T",
+        "b": "T-T-T-S-T-T-S",
+        "c": "T-T-S-T-T-T-S",
+        "d": "S-T-T-T-S-T-T",
+        "x": "c"
+    },
+    {
+        "quiz": "O que é intervalo?",
+        "a": "Relação entre acordes",
+        "b": "Distância entre notas medida por tom e semitom",
+        "c": "Velocidade da música",
+        "d": "Número de compassos",
+        "x": "b"
+    },
+    {
+        "quiz": "Quantos tons tem o intervalo de terça maior?",
+        "a": "1 tom",
+        "b": "1 tom e meio",
+        "c": "2 tons",
+        "d": "2 tons e meio",
+        "x": "c"
+    },
+    {
+        "quiz": "Quantos tons tem o intervalo de terça menor?",
+        "a": "1 tom",
+        "b": "1 tom e meio",
+        "c": "2 tons",
+        "d": "2 tons e meio",
+        "x": "b"
+    },
+    {
+        "quiz": "Quantos tons tem o intervalo de quinta justa?",
+        "a": "3 tons",
+        "b": "3 tons e meio",
+        "c": "4 tons",
+        "d": "4 tons e meio",
+        "x": "b"
+    },
+    {
+        "quiz": "Quantos tons tem o intervalo de quinta aumentada?",
+        "a": "3 tons",
+        "b": "3 tons e meio",
+        "c": "4 tons",
+        "d": "4 tons e meio",
+        "x": "c"
+    },
+    {
+        "quiz": "Quantos tons tem o intervalo de quarta justa?",
+        "a": "2 tons",
+        "b": "2 tons e meio",
+        "c": "3 tons",
+        "d": "3 tons e meio",
+        "x": "b"
+    },
+    {
+        "quiz": "Quantos tons tem o intervalo de quarta aumentada?",
+        "a": "2 tons",
+        "b": "2 tons e meio",
+        "c": "3 tons",
+        "d": "3 tons e meio",
+        "x": "c"
+    },
+    {
+        "quiz": "Quantos tons tem o intervalo de quinta diminuta?",
+        "a": "2 tons e meio",
+        "b": "3 tons",
+        "c": "3 tons e meio",
+        "d": "4 tons",
+        "x": "b"
+    },
+    {
+        "quiz": "O que é tríade?",
+        "a": "Conjunto de 3 notas seguidas",
+        "b": "Conjunto de 3 acordes",
+        "c": "Conjunto de 3 notas respeitando sempre um intervalo de terças",
+        "d": "Qualquer grupo de 3 sons simultâneos",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual a terça maior de D?",
+        "a": "F",
+        "b": "F#",
+        "c": "E",
+        "d": "G",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual a terça maior de E?",
+        "a": "G",
+        "b": "G#",
+        "c": "F#",
+        "d": "A",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual a terça maior de F?",
+        "a": "Ab",
+        "b": "Bb",
+        "c": "A",
+        "d": "G",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual a quinta de G?",
+        "a": "C",
+        "b": "E",
+        "c": "D",
+        "d": "B",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual a quarta de A?",
+        "a": "D",
+        "b": "C#",
+        "c": "G",
+        "d": "E",
+        "x": "a"
+    },
+    {
+        "quiz": "Qual a quarta aumentada de G?",
+        "a": "C",
+        "b": "C#",
+        "c": "D",
+        "d": "D#",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual a quinta diminuta de E?",
+        "a": "A",
+        "b": "Bb",
+        "c": "B",
+        "d": "F",
+        "x": "b"
+    }
+]

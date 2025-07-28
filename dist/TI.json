@@ -1,0 +1,82 @@
+[
+    {
+        "quiz": "O que significa a sigla 'CPU'?",
+        "a": "Central Power Unit",
+        "b": "Control Program Utility",
+        "c": "Central Processing Unit",
+        "d": "Computer Peripheral Unit",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual dessas é uma linguagem de programação?",
+        "a": "Photoshop",
+        "b": "Python",
+        "c": "Windows",
+        "d": "Chrome",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual empresa desenvolveu o sistema operacional Windows?",
+        "a": "Apple",
+        "b": "IBM",
+        "c": "Microsoft",
+        "d": "Google",
+        "x": "c"
+    },
+    {
+        "quiz": "O que é um software?",
+        "a": "Parte física do computador",
+        "b": "Um tipo de vírus",
+        "c": "Parte lógica do sistema",
+        "d": "Um componente eletrônico",
+        "x": "c"
+    },
+    {
+        "quiz": "O que é um navegador de internet?",
+        "a": "Programa para editar textos",
+        "b": "Software para acessar a web",
+        "c": "Antivírus",
+        "d": "Sistema operacional",
+        "x": "b"
+    },
+    {
+        "quiz": "Qual dispositivo é usado para entrada de dados?",
+        "a": "Monitor",
+        "b": "Impressora",
+        "c": "Teclado",
+        "d": "Caixa de som",
+        "x": "c"
+    },
+    {
+        "quiz": "O que significa a sigla 'URL'?",
+        "a": "Universal Resource Locator",
+        "b": "Unified Record Language",
+        "c": "Unlimited Read Logic",
+        "d": "User Remote Link",
+        "x": "a"
+    },
+    {
+        "quiz": "Qual é a função principal de um roteador?",
+        "a": "Aumentar o brilho da tela",
+        "b": "Proteger contra vírus",
+        "c": "Imprimir documentos",
+        "d": "Distribuir sinal de internet",
+        "x": "d"
+    },
+    {
+        "quiz": "O que é um arquivo PDF?",
+        "a": "Arquivo de imagem",
+        "b": "Arquivo de planilha",
+        "c": "Formato portátil de documento",
+        "d": "Programa de banco de dados",
+        "x": "c"
+    },
+    {
+        "quiz": "Qual dessas unidades mede a capacidade de armazenamento?",
+        "a": "Hertz",
+        "b": "Watts",
+        "c": "Bytes",
+        "d": "Ohms",
+        "x": "c"
+    }
+]
