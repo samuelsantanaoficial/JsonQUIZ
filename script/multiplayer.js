@@ -213,14 +213,16 @@ class MultiplayerQuiz {
     }
 
     startTimer() {
-        clearInterval(this.timer); // Use this.timer
+        clearInterval(this.timer);
+
+        this.timeLeft = 20; // ← Adicione isso aqui
 
         const audioTimer = document.getElementById('audioTimer');
         audioTimer.volume = 0.5;
         audioTimer.currentTime = 0;
         audioTimer.play();
 
-        const multiTimerDisplay = this.createOrGetTimerDisplay(); // Call local helper method
+        const multiTimerDisplay = this.createOrGetTimerDisplay();
         multiTimerDisplay.textContent = this.timeLeft;
         multiTimerDisplay.classList.remove('text-danger');
         multiTimerDisplay.classList.add('text-primary');
